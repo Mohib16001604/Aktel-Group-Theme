@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title><?php wp_title(); ?></title>
 	<?php wp_head(); ?>
-</head>
+</head>  
 <body>
 		<?php bloginfo('title'); ?>
 		<br>
@@ -42,8 +41,6 @@
 		<br>
 		<?php bloginfo('wpurl'); ?>
 		<br>
-		
-
 		<?php wp_nav_menu(array(
 			'theme_location' => 'footer-menu'
 		)); ?>
