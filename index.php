@@ -5,6 +5,11 @@
 	<?php wp_head(); ?>
 </head>  
 <body>
+		<div class="header-area">
+			<div class="header-images">
+				<img src="<?php header_image(); ?>" alt="">
+			</div>
+		</div>
 		<?php bloginfo('title'); ?>
 		<br>
 		<?php bloginfo('description'); ?>
