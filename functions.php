@@ -12,5 +12,6 @@ function aktel_theme_functions(){
 		'width' => 30,
 		'height'=> 10,
 	));
+	add_theme_support('custom-background');
 }
 
